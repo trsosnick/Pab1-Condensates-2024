@@ -1,0 +1,22 @@
+##TITLE= Parameter file, TOPSPIN		Version 3.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 385	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= joesach
+$$ 2021-04-23 04:28:14.111 -0500  joesach@B10064556
+$$ /home/joesach/data/Ruofan-2021_0421/2/acqu2s
+$$ process /opt/topspin3.2/prog/mod/go
+##$ACQT0= 0
+##$BF1= 60.810645
+##$FnMODE= 6
+##$NUC1= <15N>
+##$NusJSP= 0
+##$NusT2= 1
+##$NusTD= 256
+##$O1= 7297.2773999993
+##$SFO1= 60.8179422774
+##$SW= 32.0017831474182
+##$SW_h= 1946.28260023355
+##$TD= 256
+##END=

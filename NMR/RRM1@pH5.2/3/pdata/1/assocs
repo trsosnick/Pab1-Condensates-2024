@@ -1,0 +1,11 @@
+##TITLE= Parameter file, TopSpin 4.1.1
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= pipapa
+$$ 2021-05-10 08:41:04.243 -0500  pipapa@Ruofans-MacBook-Pro-2.local
+$$ /Users/pipapa/Desktop/NMRRRMmelting/RRM1NMR_2021_0421/3/pdata/1/assocs
+$$ process /opt/topspin4.1.1/prog/mod/dataserver
+##$MULTDISP= </Users/pipapa/Desktop/NMRRRMmelting/RRM1NMR_2021_0324/2/pdata/1>
+##END=

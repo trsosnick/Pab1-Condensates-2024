@@ -1,0 +1,90 @@
+# 1 "/opt/topspin3.2/exp/stan/nmr/lists/pp/o1calib"
+;o1calib		-*-pulsprog-*-
+;$CLASS=HighRes HWT
+;$DIM=1D
+;$HIDE=y
+
+
+# 1 "/opt/topspin3.2/exp/stan/nmr/lists/pp/Avance.incl" 1
+;Avance3.incl
+;   for AV III
+;
+;avance-version (07/12/14)
+;
+;$CLASS=HighRes Incl
+;$COMMENT=
+# 165 "/opt/topspin3.2/exp/stan/nmr/lists/pp/Avance.incl"
+;$Id: Avance3.incl,v 1.9.8.1 2012/01/31 17:56:17 ber Exp $
+# 7 "/opt/topspin3.2/exp/stan/nmr/lists/pp/o1calib" 2
+
+# 1 "/opt/topspin3.2/exp/stan/nmr/lists/pp/De.incl" 1
+;De2.incl
+;   for AVi
+;
+;avance-version (08/02/15)
+;
+;$CLASS=HighRes Incl
+;$COMMENT=
+
+# 10 "/opt/topspin3.2/exp/stan/nmr/lists/pp/De.incl"
+define delay rde1
+
+
+"rde1=de-de1"
+# 24 "/opt/topspin3.2/exp/stan/nmr/lists/pp/De.incl"
+;for multi receive
+
+
+# 33 "/opt/topspin3.2/exp/stan/nmr/lists/pp/De.incl"
+;$Id: De2.incl,v 1.7.8.1 2012/01/31 17:56:17 ber Exp $
+# 8 "/opt/topspin3.2/exp/stan/nmr/lists/pp/o1calib" 2
+
+
+"l11=nextpow(1.0e6*d12*20)"
+"anavpt=l11";
+dwellmode explicit
+# 14 "/opt/topspin3.2/exp/stan/nmr/lists/pp/o1calib"
+define loopcounter tdh
+"tdh=td/2"
+
+# 1 "mc_line 17 file /opt/topspin3.2/exp/stan/nmr/lists/pp/o1calib dc-measurement inserted automatically"
+
+    dccorr
+# 17 "/opt/topspin3.2/exp/stan/nmr/lists/pp/o1calib"
+    ze
+    1u pl9:f1
+    d1 cw:f1				; start irradiation to generate the steady state
+3   1u resume_calc
+    1u fq=0:f1 blockrequest		; set frequency and request next FID from DRU
+    d29 
+    1u stop_calc do:f1			; switch off cw during acquisition
+    (rde1 sync de1 adc1  ph31 syrec1) (1u 1u ph30:r):f1 (de)
+    (1u setrtp1|5):f1
+
+    ;sample loop acquire tdh * 2 points
+4   d12  setrtp1|0
+    0.1u setrtp1^0
+    lo to 4 times tdh
+# 32 "/opt/topspin3.2/exp/stan/nmr/lists/pp/o1calib"
+    1u setrtp1^5
+    1u sytra					 ; next frequency from list
+    1u cw:f1			   ; switch on cw again as soon as possible
+    100u eoscnp
+
+    ; everything can be repeated here
+    1u wr #0
+    1u zd 
+    lo to 3 times ns
+    1u do:f1
+    exit
+
+ph1=0
+ph30=0
+ph31=0
+# 48 "/opt/topspin3.2/exp/stan/nmr/lists/pp/o1calib"
+;pl9 : power level for cw
+;d29 : relaxation delay; ca. 0.5s to ensure new steady state
+;d1 : initial irradiation time (ca. 10s)
+;d12 : dwell time (1us)
+
+;$Id: o1calib,v 1.1 2009/07/24 08:49:35 ge Exp $

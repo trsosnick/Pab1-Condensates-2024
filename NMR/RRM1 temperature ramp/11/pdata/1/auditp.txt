@@ -1,0 +1,49 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= sosnick
+$$ /opt/data/Sosnick/Julia/Julia-2021_0819/11/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2021-08-19 18:19:24.434 -0500>,<sosnick>,<B10064557>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2021-08-19 18:18:53.889 -0500,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       7D DE AB 33 4D 7E 45 B2 93 9E 01 01 47 D2 E5 42
+       data hash MD5: 8K
+       EF 94 80 9F 38 D7 75 46 72 2C 10 F1 79 CC FD 5A>)
+(   2,<2021-08-19 18:19:29.107 -0500>,<sosnick>,<B10064557>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       efp LB = 3 FT_mod = 6 PKNL = 1 PHC0 = 91.9867 PHC1 = -45.05 SI = 32K 
+       data hash MD5: 32K
+       E0 9D 57 85 A2 2A 54 F2 3F D6 59 52 8C A9 42 81>)
+(   3,<2021-08-19 18:19:56.913 -0500>,<sosnick>,<B10064557>,<proc1d>,<TOPSPIN 3.2>,
+      <pk fgphup PHC0 = 6.4 PHC1 = 0 
+       data hash MD5: 32K
+       A3 89 4D 30 FC AD 36 42 33 A6 C7 6A 76 11 A3 06>)
+(   4,<2021-08-19 18:21:57.871 -0500>,<sosnick>,<B10064557>,<audit>,<TOPSPIN 3.2>,
+      <user comment:
+       TITLE=zggppw5
+       RRM1
+       90%H20 10%D20
+       pH 6.78 DLS buffer
+       45C
+       p90 11.43us
+       O1 2350.71HzTITLE_END
+       data hash MD5: 32K
+       A3 89 4D 30 FC AD 36 42 33 A6 C7 6A 76 11 A3 06>)
+(   5,<2021-08-19 18:22:00.251 -0500>,<sosnick>,<B10064557>,<audit>,<TOPSPIN 3.2>,
+      <user comment:
+       TITLE=zggppw5
+       RRM1
+       90%H20 10%D20
+       pH 6.78 DLS buffer
+       45C
+       p90 11.43us
+       O1 2350.71HzTITLE_END
+       data hash MD5: 32K
+       A3 89 4D 30 FC AD 36 42 33 A6 C7 6A 76 11 A3 06>)
+##END=
+
+$$ hash MD5
+$$ BA 17 70 93 B3 58 41 7A C8 B2 58 FF B6 0A CE 8D

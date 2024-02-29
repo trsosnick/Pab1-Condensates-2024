@@ -1,0 +1,22 @@
+dim 2 1024 256 128 32
+sw 1 3498.13
+sf 1 499.80234941
+label 1 1H
+dlabel 1 \u00C2\u00B9H
+nucleus 1 H1
+complex 1 0
+sw 2 1519.3
+sf 2 50.65011809
+label 2 15N
+dlabel 2 \u00C2\u00B9\u00E2\u00B5N
+nucleus 2 N15
+complex 2 0
+posneg 1
+lvl 10.0
+scale 1.0
+rdims 2
+datatype 0
+poscolor black
+negcolor #6666ff
+ref 1 8.2019 513.0
+ref 2 115.018 129.0

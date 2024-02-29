@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TOPSPIN		Version 3.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= joesach
+$$ 2021-03-15 14:27:43.914 -0500  joesach@B10064556
+$$ /home/joesach/data/Ruofan-2021_0312/23/pdata/1/outd
+$$ process /opt/topspin3.2/prog/mod/edparproc
+##$CURPLOT= <Phaser6125>
+##$CURPRIN= <$Phaser6125>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/2D_inv.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##END=

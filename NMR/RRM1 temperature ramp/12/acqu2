@@ -1,0 +1,22 @@
+##TITLE= Parameter file, TOPSPIN		Version 3.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 6	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= sosnick
+$$ 2021-08-19 18:22:33.109 -0500  sosnick@B10064557
+$$ /opt/data/Sosnick/Julia/Julia-2021_0819/12/acqu2
+$$ process /opt/topspin3.2/prog/mod/dataserver
+##$ACQT0= 0
+##$BF1= 50.644294
+##$FnMODE= 6
+##$NUC1= <15N>
+##$NusJSP= 0
+##$NusT2= 1
+##$NusTD= 0
+##$O1= 5824.09380999849
+##$SFO1= 50.65011809381
+##$SW= 30
+##$SW_h= 1519.5035428143
+##$TD= 128
+##END=

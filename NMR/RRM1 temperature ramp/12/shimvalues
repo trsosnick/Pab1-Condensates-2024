@@ -1,0 +1,101 @@
+# Thu Aug 19 18:23:52 2021
+#$$PROBEID=2
+#$$PROBEINFO=5 mm PATXI 1H/D-13C/15N Z-GRD Z816101/0026
+#$$PICSINFO=Z816101_0026_02.par
+#$$SHIMID=292722
+#
+# Active Shim Gradients
+#
+Z           		1303            
+Z2          		-486            
+Z3          		172             
+Z4          		1243            
+Z5          		500             
+Z6          		683             
+Z7          		10047           
+Z8          		0               
+X           		473             
+XZ          		-3249           
+XZ2         		8192            
+XZ3         		1887            
+XZ4         		-479            
+XZ5         		3399            
+Y           		208             
+YZ          		-11511          
+YZ2         		31764           
+YZ3         		4300            
+YZ4         		242             
+YZ5         		2904            
+XY          		-5274           
+XYZ         		17969           
+XYZ2        		-4962           
+XYZ3        		-88             
+XYZ4        		1381            
+XYZ5        		0               
+(X2-Y2)     		4580            
+(X2-Y2)Z    		-19750          
+(X2-Y2)Z2   		9808            
+(X2-Y2)Z3   		1432            
+(X2-Y2)Z4   		-5236           
+(X2-Y2)Z5   		0               
+X3          		1679            
+X3Z         		2753            
+Y3          		-4401           
+Y3Z         		5212            
+#
+# Lock Parameter
+#
+FIELD		-4833.079
+LOCKPHASE		344.900 
+LOCKPOWER		-18.000 
+LOCKGAIN		112.356 
+LOCKDC		-75.000 
+LOCKSHIFT		4.700   
+LOOPGAIN		-5.000  
+LOOPTIME		0.350   
+LOOPFILTER		100.000 
+#
+IEEE64_VERSION_CODE 1
+#
+# Shim currents 
+#
+SHIM_SETTING [1 ]  2110.69843653   
+SHIM_SETTING [2 ]  -447.24784330   
+SHIM_SETTING [3 ]  -5184.10407883  
+SHIM_SETTING [4 ]  -1563.12919749  
+SHIM_SETTING [5 ]  -366.33398056   
+SHIM_SETTING [6 ]  1396.96500544   
+SHIM_SETTING [7 ]  12179.31800739  
+SHIM_SETTING [8 ]  -8748.76578673  
+SHIM_SETTING [9 ]  3083.43779571   
+SHIM_SETTING [10]  -1959.17630259  
+SHIM_SETTING [11]  0.00000000      
+SHIM_SETTING [12]  -9612.74000000  
+SHIM_SETTING [13]  810.75300000    
+SHIM_SETTING [14]  -520.97600000   
+SHIM_SETTING [15]  7964.54077982   
+SHIM_SETTING [16]  8691.13777982   
+SHIM_SETTING [17]  -7022.71861420  
+SHIM_SETTING [18]  -1654.18238580  
+SHIM_SETTING [19]  1522.11939798   
+SHIM_SETTING [20]  -6792.58392151  
+SHIM_SETTING [21]  -8352.11700000  
+SHIM_SETTING [22]  29033.11100000  
+SHIM_SETTING [23]  -12193.03100000 
+SHIM_SETTING [24]  17461.71900000  
+SHIM_SETTING [25]  -7512.51100000  
+SHIM_SETTING [26]  -1548.21800000  
+SHIM_SETTING [27]  2149.60800000   
+SHIM_SETTING [28]  25484.68335321  
+SHIM_SETTING [29]  4150.13200000   
+SHIM_SETTING [30]  -3704.89700000  
+SHIM_SETTING [31]  -29711.70343074 
+SHIM_SETTING [32]  38715.07235321  
+SHIM_SETTING [33]  10170.29500000  
+SHIM_SETTING [34]  -25637.50700000 
+SHIM_SETTING [35]  9701.18500000   
+SHIM_SETTING [36]  -15743.75400000 
+SHIM_SETTING [37]  -13272.95497997 
+SHIM_SETTING [38]  -5465.61247121  
+SHIM_SETTING [39]  -11380.51656926 
+SHIM_SETTING [40]  0.00000000      

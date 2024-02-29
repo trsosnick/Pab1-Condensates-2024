@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList>
+  <PeakList1D>
+    <PeakList1DHeader creator="sosnick" date="2021-08-19T18:16:29.059-05:00" expNo="99999" name="Julia-2021_0819" owner="" procNo="1" source="/opt/data/Sosnick/Julia">
+      <PeakPickDetails>F1=3.335ppm, F2=-3.335ppm, MI=25.00cm, MAXI=110.00cm, PC=1.000
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="1.0995" intensity="1.000000e+02" type="0"/>
+    <Peak1D F1="-1.0995" intensity="1.000000e+02" type="0"/>
+  </PeakList1D>
+</PeakList>

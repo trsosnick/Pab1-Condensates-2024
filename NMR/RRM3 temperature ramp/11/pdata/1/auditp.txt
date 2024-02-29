@@ -1,0 +1,23 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= sosnick
+$$ /opt/data/sosnick/Ruofan-2019_0221/11/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2019-02-22 10:44:20.406 -0600>,<sosnick>,<B10064556>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2019-02-22 10:43:43.770 -0600,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       84 88 A6 51 25 62 35 DA F7 8A 21 E3 3C 68 89 1F
+       data hash MD5: 16K
+       36 60 1E 49 18 CC 56 77 C7 FC E5 03 0A A4 D8 85>)
+(   2,<2019-02-22 10:51:43.285 -0600>,<sosnick>,<B10064556>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       efp LB = 4 FT_mod = 6 PKNL = 1 PHC0 = 182.1132 PHC1 = -53.67416 SI = 32K 
+       data hash MD5: 32K
+       E1 97 9E 50 E0 A0 35 88 B0 12 EF A4 4D E5 AC ED>)
+##END=
+
+$$ hash MD5
+$$ 85 4C CC EE AF 48 00 9D D8 39 BB 71 2B 1C 81 C9

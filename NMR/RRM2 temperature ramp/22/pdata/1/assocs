@@ -1,0 +1,11 @@
+##TITLE= Parameter file, TOPSPIN		Version 3.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= joesach
+$$ 2021-03-17 11:52:09.106 -0500  joesach@B10064556
+$$ /home/joesach/data/Ruofan-2021_0312/22/pdata/1/assocs
+$$ process /opt/topspin3.2/prog/mod/dataserver
+##$MULTDISP= </home/joesach/data/Ruofan-2021_0312/23/pdata/1>
+##END=

@@ -1,0 +1,16 @@
+##TITLE= Parameter file, TOPSPIN		Version 3.2
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= sosnick
+$$ 2019-02-21 14:13:50.833 -0600  sosnick@B10064556
+$$ /opt/data/sosnick/Ruofan-2019_0221/4/pdata/999/outd
+$$ process /opt/topspin3.2/prog/mod/proc1d
+##$CURPLOT= <Phaser6125>
+##$CURPRIN= <$Phaser6125>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/1D_X.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##END=

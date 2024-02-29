@@ -1,0 +1,17 @@
+dim 1 16384 4096
+sw 1 9014.42
+sf 1 600.13281897
+label 1 1H
+dlabel 1 ¹H
+nucleus 1 H1
+complex 1 0
+fdomain 1 1
+posneg 1
+lvl 0.000000
+scale 1.00000
+norm 1.00000
+rdims 1
+datatype 0
+poscolor black
+negcolor red
+ref 1 4.6973 8193.0

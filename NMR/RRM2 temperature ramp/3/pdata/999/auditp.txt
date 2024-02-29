@@ -1,0 +1,17 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= joesach
+$$ /home/joesach/data/Ruofan-2021_0312/11/pdata/999/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2021-03-12 14:13:18.356 -0600>,<joesach>,<B10064556>,<go>,<TOPSPIN 3.2>,
+      <acquisition in progress>)
+(   2,<2021-03-12 14:14:01.083 -0600>,<joesach>,<B10064556>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       efp 1 999 y BC_mod = 6 BCFW = 0.1 LB = 4 FT_mod = 6 PKNL = 1 PHC0 = -117.4 PHC1 = 0 SI = 2K 
+       data hash MD5: 2K
+       38 AB 7C 09 FD 8C 41 8B 74 D2 DC C3 23 4D 81 6A>)
+##END=
+
+$$ hash MD5
+$$ D7 F7 37 DA B2 81 69 62 F3 92 EB 1C B9 68 AA 59

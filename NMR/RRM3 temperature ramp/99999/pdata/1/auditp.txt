@@ -1,0 +1,35 @@
+##TITLE= Audit trail, TOPSPIN		Version 3.2
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= sosnick
+$$ /opt/data/sosnick/Ruofan-2019_0221/99999/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2019-02-21 11:48:21.461 -0600>,<sosnick>,<B10064556>,<go>,<TOPSPIN 3.2>,
+      <created by zg
+	started at 2019-02-21 11:48:16.821 -0600,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       84 88 A6 51 25 62 35 DA F7 8A 21 E3 3C 68 89 1F
+       data hash MD5: 4K
+       42 DC 4D 17 B7 E9 44 9D 93 87 AB D7 B3 43 D1 E6>)
+(   2,<2019-02-21 11:48:22.168 -0600>,<sosnick>,<B10064556>,<proc1d>,<TOPSPIN 3.2>,
+      <Start of raw data processing
+       gm BC_mod = 6 BCFW = 0.1333044 LB = -10 GB = 0.1 SI = 16K 
+       data hash MD5: 16K
+       B6 E3 D4 7A 04 84 63 AD 76 44 DC 3E FE 6A 76 B9>)
+(   3,<2019-02-21 11:48:22.176 -0600>,<sosnick>,<B10064556>,<proc1d>,<TOPSPIN 3.2>,
+      <ft FT_mod = 6 PKNL = 1 SI = 16K 
+       data hash MD5: 16K
+       1D 17 A6 EE 8C 5F A4 3A 02 C6 92 63 32 01 6C A4>)
+(   4,<2019-02-21 11:48:22.180 -0600>,<sosnick>,<B10064556>,<proc1d>,<TOPSPIN 3.2>,
+      <mc 
+       data hash MD5: 16K
+       24 D8 79 36 1A 1D C3 24 38 1B F6 11 87 89 E8 0E>)
+(   5,<2019-02-21 11:48:22.188 -0600>,<sosnick>,<B10064556>,<pulsecal>,<TOPSPIN 3.2>,
+      <pulsecal , symmetrised
+       data hash MD5: 16K
+       7F 9B D4 EF C2 5D E9 3E 5A 2B 38 2F 53 81 B1 4F>)
+##END=
+
+$$ hash MD5
+$$ 8F AB 43 49 24 4E D7 F7 4B 8C E2 8C 0F CF 20 66

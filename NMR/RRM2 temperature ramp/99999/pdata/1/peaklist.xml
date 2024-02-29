@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PeakList>
+  <PeakList1D>
+    <PeakList1DHeader creator="joesach" date="2021-03-12T14:48:21.063-06:00" expNo="99999" name="Ruofan-2021_0312" owner="" procNo="1" source="/home/joesach/data">
+      <PeakPickDetails>F1=2.777ppm, F2=-2.777ppm, MI=25.00cm, MAXI=110.00cm, PC=1.000
+      </PeakPickDetails>
+    </PeakList1DHeader>
+    <Peak1D F1="0.9215" intensity="1.000000e+02" type="0"/>
+    <Peak1D F1="-0.9215" intensity="1.000000e+02" type="0"/>
+  </PeakList1D>
+</PeakList>
